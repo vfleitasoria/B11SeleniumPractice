@@ -1,0 +1,24 @@
+HTML = Hyper Text Markup Language
+XML = Extended Markup Language
+
+<html>
+	<head></head>
+	
+	<body>
+	
+		<div id="first-div" class="some-style">
+			<p>Hello world</p>
+		</div>
+		
+		<div id="second-div">
+			<p>How are you doing?</p>
+		</div>
+		
+	</body>
+	
+</html>
+
+1. Tag names (html, body, div, p, a, img)
+2. Inner text (ex: Hello world)
+3. Attributes
+

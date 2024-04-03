@@ -1,0 +1,31 @@
+Syntax:
+
+tagName[attribute=value][attribute2=value2]
+tagName#id
+	button#submit-btn 		<button id="submit-btn">
+tagName.class1.class2
+	button.primary.btn		<button class="primary btn blue">
+
+
+div#content.success[placeholder='Enter your password']
+
+
+xpath	: /html/body/h1
+css		: html -> body -> h1
+
+xpath	: //div[@class='profile-info']/p
+css		: div.profile-info -> p
+
+xpath	: //div[@id='abc' and @class='xyz']
+css		: div#abc.xyz
+
+xpath	: //p[starts-with(@id, 'p-id-')]
+css		: p[id^=p-id-]
+
+xpath 	: //p[contains(@id, 'p-id-')]
+css		: p[id*=p-id-]
+
+
+^=		starts with
+$=		ends with
+*=		contains

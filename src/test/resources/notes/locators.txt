@@ -1,0 +1,11 @@
+<input class="abc def" />
+
+driver.findElement(By.className("abc"));
+driver.findElement(By.className("def"));
+
+driver.findElement(By.xpath("//input[contains(@class, 'abc') or contains(@class, 'def')]"));
+
+//div[contains(@class, 'abc') or contains(@class, 'def')]
+
+//div[contains(@class, 'abc') and contains(@class, 'def')]
+div.abc.def
